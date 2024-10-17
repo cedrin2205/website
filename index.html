@@ -52,10 +52,7 @@
         transition: 0.6s;
       }
       section {
-        position: relative;
         height: 100vh;
-        display: flex;
-        font-size: 2rem;
         border-bottom: 1px solid #ddd;
         font-family: "Montserrat", sans-serif;
       }
@@ -71,12 +68,87 @@
         color: navy;
         font-weight: 800;
       }
-      #contact,
-      #product,
-      #team {
-        position: relative;
-        background-color: #e0e0e0;
+      #contact {
+
       }
+      #product {
+
+      }
+      /*team start*/
+      #team {
+        background-color: beige;
+        box-sizing: border-box;
+      }
+
+      .first-container {
+        position: relative;
+        display: flex ;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        padding-top: 100px;
+        text-align: center;
+      }
+
+      .card {
+        width: 220px; 
+        height: 220px;
+        background-color: rgb(133, 125, 125);
+        border-radius: 15px;
+        margin: 30px;
+      }
+
+      .nameholder {
+        position: absolute;
+        height: 50px;
+        width: 12%;
+        background-color: #ddd;
+      }
+
+      .nameplatetop {
+        position: absolute;
+        bottom: 20px;
+        left: 13.5%;
+      }
+
+      .nameplate1 {
+        position: absolute;
+        bottom: 20px;
+        left: 34%;
+      }
+
+      .nameplate2 {
+        position: absolute;
+        bottom: 20px;
+        left: 54.4%;
+      }
+
+      .nameplate3 {
+        position: absolute;
+        bottom: 20px;
+        left: 74.5%;
+      }
+
+      .nameplate4 {
+        position: absolute;
+        bottom: 45%;
+        left: 64.5%;
+      }
+
+      .nameplate5 {
+        position: absolute;
+        bottom: 45%;
+        left: 44%;
+      }
+
+      .nameplate6 {
+        position: absolute;
+        bottom: 45%;
+        left: 24%;
+      }
+
+
+      /*team end*/
       .big {
         position: relative;
         font-size: 30px;
@@ -122,7 +194,28 @@
 
     </section>
     <section id="product">Product Section</section>
-    <section id="team">Team Section</section>
+    <section id="team">
+      <div class="text">Meet Our Team
+        <div>Comprised of individuals committed to advancing their technological knowledge and contributing to the tech community.</div>
+      </div>
+      
+      <div class="first-container">
+        <div class="card">7</div>
+        <div class="nameholder nameplatetop">name</div>
+        <div class="card">1</div>
+        <div class="nameholder nameplate1">name</div>
+        <div class="card">2</div>
+        <div class="nameholder nameplate2">name</div>
+        <div class="card">3</div>
+        <div class="nameholder nameplate3">name</div>
+        <div class="card">4</div>
+        <div class="nameholder nameplate4">name</div>
+        <div class="card">5</div>
+        <div class="nameholder nameplate5">name</div>
+        <div class="card">6</div>
+        <div class="nameholder nameplate6">name</div>
+      </div>
+    </section>
     <section id="contact">Contact Section</section>
     
 
