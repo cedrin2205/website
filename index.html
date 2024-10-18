@@ -86,67 +86,90 @@
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap-reverse;
-        padding-top: 100px;
+        padding-top: 60px;
         text-align: center;
+      }
+
+      .teamtext-header {
+        font-size: 25px;
+        color: #485664;
+      }
+
+      .text {
+        position: relative;
+        text-align: center;
+        top: 50px;
+      }
+
+      .contributors {
+        height: 220px;
+        width: 220px;
+        border-radius: 15px;
       }
 
       .card {
         width: 220px; 
         height: 220px;
-        background-color: rgb(133, 125, 125);
+        background-color: #858d94;
         border-radius: 15px;
         margin: 30px;
+      }
+
+      .nameholder div {
+        margin: 5px;
+        color: #6C757D;
       }
 
       .nameholder {
         position: absolute;
         height: 50px;
-        width: 12%;
+        width: 13.5%;
+        font-size: 15px;
+        padding-top: 5px;
         background-color: #ddd;
       }
 
       .nameplatetop {
         position: absolute;
         bottom: 20px;
-        left: 13.5%;
+        left: 13%;
       }
 
       .nameplate1 {
         position: absolute;
         bottom: 20px;
-        left: 34%;
+        left: 33%;
       }
 
       .nameplate2 {
         position: absolute;
         bottom: 20px;
-        left: 54.4%;
+        left: 53.5%;
       }
 
       .nameplate3 {
         position: absolute;
         bottom: 20px;
-        left: 74.5%;
+        left: 74%;
       }
 
       .nameplate4 {
         position: absolute;
-        bottom: 45%;
-        left: 64.5%;
+        bottom: 47%;
+        left: 63.6%;
       }
 
       .nameplate5 {
         position: absolute;
-        bottom: 45%;
-        left: 44%;
+        bottom: 47%;
+        left: 43.5%;
       }
 
       .nameplate6 {
         position: absolute;
-        bottom: 45%;
-        left: 24%;
+        bottom: 47%;
+        left: 23%;
       }
-
 
       /*team end*/
       .big {
@@ -195,25 +218,54 @@
     </section>
     <section id="product">Product Section</section>
     <section id="team">
-      <div class="text">Meet Our Team
-        <div>Comprised of individuals committed to advancing their technological knowledge and contributing to the tech community.</div>
+      <div class="text">
+        <div class="teamtext-header">Meet Our Team</div>
+        <p>Comprised of individuals committed to advancing their technological knowledge and contributing to the tech community.</p>
       </div>
       
       <div class="first-container">
-        <div class="card">7</div>
-        <div class="nameholder nameplatetop">name</div>
-        <div class="card">1</div>
-        <div class="nameholder nameplate1">name</div>
-        <div class="card">2</div>
-        <div class="nameholder nameplate2">name</div>
-        <div class="card">3</div>
-        <div class="nameholder nameplate3">name</div>
-        <div class="card">4</div>
-        <div class="nameholder nameplate4">name</div>
-        <div class="card">5</div>
-        <div class="nameholder nameplate5">name</div>
-        <div class="card">6</div>
-        <div class="nameholder nameplate6">name</div>
+        <div class="card">
+          <img class="contributors" src="img/Dave.jpg" alt="contributor">
+        </div>
+        <div class="nameholder nameplatetop">Dave Vincent Siriban
+          <div>Research leader</div>
+        </div>
+        <div class="card">
+          <img src="" alt="" class="contributors">
+        </div>
+        <div class="nameholder nameplate1">name
+          <div>Research leader</div>
+        </div>
+        <div class="card">
+          <img src="" alt="" class="contributors">
+        </div>
+        <div class="nameholder nameplate2">name
+          <div>Research leader</div>
+        </div>
+        <div class="card">
+          <img src="" alt="" class="contributors">
+        </div>
+        <div class="nameholder nameplate3">name
+          <div>Research leader</div>
+        </div>
+        <div class="card">
+          <img src="" alt="" class="contributors">
+        </div>
+        <div class="nameholder nameplate4">name
+          <div>Research leader</div>
+        </div>
+        <div class="card">
+          <img src="" alt="" class="contributors">
+        </div>
+        <div class="nameholder nameplate5">name
+          <div>Research leader</div>
+        </div>
+        <div class="card">
+          <img src="" alt="" class="contributors">
+        </div>
+        <div class="nameholder nameplate6">name
+          <div>Research leader</div>
+        </div>
       </div>
     </section>
     <section id="contact">Contact Section</section>
