@@ -1,0 +1,118 @@
+html,
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure full height */
+  width: 100%; /* Ensure full width */
+  margin: 0; /* Remove default margin */
+  background-color: white; /* Background color */
+}
+
+section {
+  height: 100vh;
+  border-bottom: 1px solid #ddd;
+  font-family: "Montserrat", sans-serif;
+}
+#contact {
+}
+#product {
+}
+/*team start*/
+#team {
+  background-color: beige;
+  box-sizing: border-box;
+}
+
+.first-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.teamtext-header {
+  font-size: 25px;
+  color: #485664;
+}
+
+.text {
+  position: relative;
+  text-align: center;
+  top: 50px;
+}
+
+.contributors {
+  height: 220px;
+  width: 220px;
+  border-radius: 15px;
+}
+
+.card {
+  width: 220px;
+  height: 220px;
+  background-color: #858d94;
+  border-radius: 15px;
+  margin: 30px;
+}
+
+.nameholder div {
+  margin: 5px;
+  color: #6c757d;
+}
+
+.nameholder {
+  position: absolute;
+  height: 50px;
+  width: 13.5%;
+  font-size: 15px;
+  padding-top: 5px;
+  background-color: #ddd;
+}
+
+.nameplatetop {
+  position: absolute;
+  bottom: 20px;
+  left: 13%;
+}
+
+.nameplate1 {
+  position: absolute;
+  bottom: 20px;
+  left: 33%;
+}
+
+.nameplate2 {
+  position: absolute;
+  bottom: 20px;
+  left: 53.5%;
+}
+
+.nameplate3 {
+  position: absolute;
+  bottom: 20px;
+  left: 74%;
+}
+
+.nameplate4 {
+  position: absolute;
+  bottom: 47%;
+  left: 63.6%;
+}
+
+.nameplate5 {
+  position: absolute;
+  bottom: 47%;
+  left: 43.5%;
+}
+
+.nameplate6 {
+  position: absolute;
+  bottom: 47%;
+  left: 23%;
+}
+
+/*team end*/
