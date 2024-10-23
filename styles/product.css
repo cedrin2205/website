@@ -4,7 +4,7 @@
     text-align: center;
     color: white;
     height: auto;
-    background-image: url(bg.jpg);
+    background-image: url(https://raw.githubusercontent.com/cedrin2205/website/refs/heads/main/img/bg.jpg);
   }
   .container {
     max-width: 1200px;
@@ -49,8 +49,8 @@
     text-align: center;
   }
   .feature-item img {
-    width: 100%;
-    height: auto;
+    width: 270px;
+    height: 240px;
     border-radius: 10px;
   }
   .feature-item p {
@@ -83,7 +83,7 @@
     transform: scale(1.05);
   }
   .product-item img {
-    width: 100%;
-    height: auto;
+    width: 370px;
+    height: 175px;
     border-radius: 10px;
   }
