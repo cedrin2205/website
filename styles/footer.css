@@ -14,6 +14,15 @@ footer {
     margin: 0 5px;
 }
 
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
 .footer-content {
     display: flex;
     flex-wrap: wrap;
@@ -23,6 +32,13 @@ footer {
 .column {
     flex: 1;
     margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+.columnPixel{
+    text-align: justify;
+    margin-right: 30px;
+    margin-top: 10px;
 }
 
 .column h3 {
