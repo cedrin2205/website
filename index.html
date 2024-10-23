@@ -111,9 +111,14 @@
       </div>
     </section>
 
+    <section id="team">
+      <div class="teamtext-header">Meet Our team
+        <p class="text">Comprised of individuals committed to advancing their technological knowledge and contributing to the tech community.</p>
+      </div>
+
       <div class="first-container">
         <div class="card">
-          <img class="contributors" src="img/Dave.jpg" alt="contributor" />
+          <img src="img/Dave.jpg" alt="contributor-Dave" class="contributors" />
         </div>
         <div class="nameholder nameplatetop">
           Dave Vincent Siriban
@@ -163,10 +168,9 @@
         </div>
       </div>
     </section>
-    <section id="contact">Contact Section</section>
 
     <footer>
-      <div class="social-links">   
+      <div id="contact" class="social-links">   
 
         <p>Eto mga socmed namin:</p>
         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -225,16 +229,16 @@
         scrollToSection("home");
       });
 
-      document.getElementById("nav-contact").addEventListener("click", () => {
-        scrollToSection("contact");
-      });
-
       document.getElementById("nav-product").addEventListener("click", () => {
         scrollToSection("product");
       });
 
       document.getElementById("nav-team").addEventListener("click", () => {
         scrollToSection("team");
+      });
+
+      document.getElementById("nav-contact").addEventListener("click", () => {
+        scrollToSection("contact");
       });
     </script>
   </body>

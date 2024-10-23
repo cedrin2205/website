@@ -10,7 +10,7 @@ body {
 }
 
 section {
-  height: 100vh;
+  height: 130vh;
   border-bottom: 1px solid #ddd;
   font-family: "Montserrat", sans-serif;
 }
@@ -20,7 +20,7 @@ section {
 }
 /*team start*/
 #team {
-  background-color: beige;
+  background-color: #1e1e1e;
   box-sizing: border-box;
 }
 
@@ -30,33 +30,36 @@ section {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap-reverse;
-  padding-top: 60px;
+  padding-top: 35px;
   text-align: center;
 }
 
-.teamtext-header {
-  font-size: 25px;
-  color: #485664;
-}
-
-.text {
+.teamtext-header{
   position: relative;
+  font-size: 28px;
+  color: whitesmoke;
   text-align: center;
   top: 50px;
 }
 
+.text {
+  font-size: 20px;
+}
+
 .contributors {
-  height: 220px;
-  width: 220px;
+  height: 280px;
+  width: 280px;
   border-radius: 15px;
+  border-style: none;
 }
 
 .card {
-  width: 220px;
-  height: 220px;
+  width: 280px;
+  height: 280px;
   background-color: #858d94;
   border-radius: 15px;
-  margin: 30px;
+  border-style: none;
+  margin: 25px;
 }
 
 .nameholder div {
@@ -66,53 +69,54 @@ section {
 
 .nameholder {
   position: absolute;
-  height: 50px;
-  width: 13.5%;
+  height: 60px;
+  width: 220px;
   font-size: 15px;
-  padding-top: 5px;
+  padding-top: 15px;
+  border-radius: 5px;
   background-color: #ddd;
 }
 
 .nameplatetop {
   position: absolute;
-  bottom: 20px;
-  left: 13%;
+  top: 40rem;
+  left: 5.4rem;
 }
 
 .nameplate1 {
   position: absolute;
-  bottom: 20px;
-  left: 33%;
+  top: 40rem;
+  left: 26rem;
 }
 
 .nameplate2 {
   position: absolute;
-  bottom: 20px;
-  left: 53.5%;
+  top: 40rem;
+  left: 46.7rem;
 }
 
 .nameplate3 {
   position: absolute;
-  bottom: 20px;
-  left: 74%;
+  top: 40rem;
+  left: 67.5rem;
 }
 
 .nameplate4 {
   position: absolute;
-  bottom: 47%;
-  left: 63.6%;
+  bottom: 19.5rem;
+  left: 57rem;
 }
 
 .nameplate5 {
   position: absolute;
-  bottom: 47%;
-  left: 43.5%;
+  bottom: 19.5rem;
+  left: 36rem;
 }
 
 .nameplate6 {
   position: absolute;
-  bottom: 47%;
-  left: 23%;
+  bottom: 19.5rem;
+  left: 16rem;
 }
 
 /*team end*/
