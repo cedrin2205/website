@@ -21,12 +21,12 @@ section {
   box-sizing: border-box;
 }
 
-.first-container {
+.first-container, .second-container {
   position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   padding-top: 35px;
   text-align: center;
 }
@@ -57,10 +57,12 @@ section {
   border-radius: 15px;
   border-style: none;
   margin: 25px;
+  margin-top: 50px;
 }
 
 .nameholder div {
   margin: 5px;
+  
   color: #6c757d;
 }
 
@@ -76,44 +78,50 @@ section {
 
 .nameplatetop {
   position: absolute;
-  top: 40rem;
+  top: 21rem;
   left: 5.4rem;
 }
 
 .nameplate1 {
   position: absolute;
-  top: 40rem;
+  top: 21rem;
   left: 26rem;
 }
 
 .nameplate2 {
   position: absolute;
-  top: 40rem;
+  top: 21rem;
   left: 46.7rem;
 }
 
 .nameplate3 {
   position: absolute;
-  top: 40rem;
+  top: 21rem;
   left: 67.5rem;
 }
 
 .nameplate4 {
   position: absolute;
-  bottom: 19.5rem;
-  left: 57rem;
+  top: 21rem;
+  left: 3.5rem;
 }
 
 .nameplate5 {
   position: absolute;
-  bottom: 19.5rem;
-  left: 36rem;
+  top: 21rem;
+  left: 24rem;
 }
 
 .nameplate6 {
   position: absolute;
-  bottom: 19.5rem;
-  left: 16rem;
+  top: 21rem;
+  left: 45rem;
+}
+
+.nameplate7 {
+  position: absolute;
+  top: 21rem;
+  left: 65.5rem;
 }
 
 /*team end*/
