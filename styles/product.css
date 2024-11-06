@@ -2,9 +2,8 @@
 #product {
   padding: 40px 0;
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
   height: auto;
-  background-image: url(https://raw.githubusercontent.com/cedrin2205/website/refs/heads/main/img/bg.jpg);
 }
 .container {
   max-width: 1200px;
@@ -17,7 +16,9 @@
   align-items: center;
   margin-bottom: 40px;
 }
-.video-container {
+.video-container img{
+  height: 400px;
+  width: 600px;
   flex: 1;
 }
 .description-container {
@@ -55,7 +56,7 @@
 }
 .feature-item p {
   margin-top: 15px;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.6;
 }
 
