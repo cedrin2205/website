@@ -23,7 +23,9 @@ section {
   overflow: hidden;
 }
 
-.team-container, .first-container, .second-container {
+.team-container,
+.first-container,
+.second-container {
   position: relative;
   display: flex;
   flex-direction: row;

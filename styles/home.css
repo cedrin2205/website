@@ -1,7 +1,8 @@
-/* Global Styles */
 #home {
   width: 100%;
+  position: relative;
   background-color: black;
+  overflow: hidden;
 }
 
 header {
@@ -14,25 +15,31 @@ header {
   z-index: 100;
 }
 
-.containerpic {
+.titleproduct {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 300px;
+  top: 30%;
+  z-index: 8;
+  left: 37%;
+  font-size: 80px;
+  color: white;
+  font-family: "Anton SC", sans-serif;
 }
 
-.productpic {
-  display: block;
-  width: 100%;
-  height: 80vh;
-  object-fit: cover;
-}
-
-.containerpic::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to left, rgba(0, 0, 0, 87), rgba(0, 0, 0, 0));
-  pointer-events: none;
+.view {
+  height: 30px;
+  width: 120px;
+  margin-top: 20x;
+  margin-left: 155px;
+  border-style: none;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  box-shadow: 4px 6px 7px 1px rgba(0, 0, 0, 0.7);
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
 
 .containerheader {
@@ -55,6 +62,7 @@ header {
 .center {
   display: flex;
   font-family: "Montserrat", sans-serif;
+  margin-right: 80px;
 }
 
 .center div {
@@ -62,61 +70,35 @@ header {
   cursor: pointer;
 }
 
-.getstarted {
-  margin-right: 120px;
-  font-family: "Montserrat", sans-serif;
-  width: 200px; /* Fixed width */
-  white-space: nowrap; /* Prevent wrapping */
-  overflow: hidden; /* Hide overflowing text */
-  text-overflow: ellipsis;
-}
-
-.homebackground {
-  position: relative;
-  object-fit: cover;
-  margin-top: 100px;
-  height: 75vh;
-  width: 100%;
-}
-
 .homecontainer {
   position: relative;
 }
 
 .side {
-  font-size: 25px;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  width: 100%;
+}
+
+.side img {
+  top: -100px;
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.side::before {
+  content: "";
   position: absolute;
-  top: 30%;
-  left: 70%;
-  width: 400px;
-  color: white;
-}
-
-.big {
-  font-weight: bold;
-  font-size: 35px;
-}
-
-.small {
-  width: 350px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  pointer-events: none;
 }
 
 @media screen and (max-width: 768px) {
-  .homebackground {
-    height: 50vh;
-    margin-top: 60px;
-  }
-
-  .side {
-    position: absolute;
-    top: 40%;
-    width: 80%;
-    font-size: 20px;
-  }
-
   .big {
     font-size: 30px;
   }
@@ -132,19 +114,6 @@ header {
 }
 
 @media screen and (max-width: 1024px) {
-  .homebackground {
-    height: 60vh;
-    margin-top: 80px;
-  }
-
-  .side {
-    position: absolute;
-    top: 30%;
-    left: 60%;
-    width: 300px;
-    font-size: 22px;
-  }
-
   .big {
     font-size: 32px;
   }
@@ -160,19 +129,6 @@ header {
 }
 
 @media screen and (min-width: 1025px) {
-  .homebackground {
-    height: 75vh;
-    margin-top: 100px;
-  }
-
-  .side {
-    font-size: 25px;
-    position: absolute;
-    top: 30%;
-    left: 70%;
-    width: 400px;
-  }
-
   .big {
     font-weight: bold;
     font-size: 35px;
