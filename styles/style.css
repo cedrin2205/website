@@ -17,11 +17,13 @@ section {
 }
 /*team start*/
 #team {
+  max-height: max-content;
   background-color: #1e1e1e;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
-.first-container, .second-container {
+.team-container, .first-container, .second-container {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -29,6 +31,7 @@ section {
   flex-wrap: wrap;
   padding-top: 35px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .teamtext-header {
@@ -62,12 +65,10 @@ section {
 
 .nameholder div {
   margin: 5px;
-  
   color: #6c757d;
 }
 
 .nameholder {
-  position: absolute;
   height: 60px;
   width: 220px;
   font-size: 15px;
@@ -79,25 +80,25 @@ section {
 .nameplatetop {
   position: absolute;
   top: 21rem;
-  left: 5.4rem;
+  left: 3.5rem;
 }
 
 .nameplate1 {
   position: absolute;
   top: 21rem;
-  left: 26rem;
+  left: 24rem;
 }
 
 .nameplate2 {
   position: absolute;
   top: 21rem;
-  left: 46.7rem;
+  left: 45rem;
 }
 
 .nameplate3 {
   position: absolute;
   top: 21rem;
-  left: 67.5rem;
+  left: 65.5rem;
 }
 
 .nameplate4 {
