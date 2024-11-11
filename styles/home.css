@@ -99,12 +99,15 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-  .big {
-    font-size: 30px;
+  .titleproduct {
+    width: 300px;
+    top: 30%;
+    left: 30%;
+    font-size: 65px;
   }
 
-  .small {
-    width: 100%;
+  .view {
+    margin-left: 125px;
   }
 
   .pixel,
@@ -114,14 +117,16 @@ header {
 }
 
 @media screen and (max-width: 1024px) {
-  .big {
-    font-size: 32px;
+  .titleproduct {
+    width: 300px;
+    top: 30%;
+    left: 34%;
+    font-size: 70px;
   }
 
-  .small {
-    width: 100%;
+  .view {
+    margin-left: 125px;
   }
-
   .pixel,
   .getstarted {
     width: 180px;
@@ -129,13 +134,11 @@ header {
 }
 
 @media screen and (min-width: 1025px) {
-  .big {
-    font-weight: bold;
-    font-size: 35px;
-  }
-
-  .small {
-    width: 350px;
+  .titleproduct {
+    width: 300px;
+    top: 30%;
+    left: 37%;
+    font-size: 80px;
   }
 
   .pixel,
