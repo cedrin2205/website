@@ -53,10 +53,10 @@ header {
   font-family: "Pixelify sans", sans-serif;
   margin-left: 100px;
   font-size: 25px;
-  width: 200px; /* Fixed width */
-  white-space: nowrap; /* Prevent wrapping */
-  overflow: hidden; /* Hide overflowing text */
-  text-overflow: ellipsis; /* Add ellipsis if text is too long */
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .center {
