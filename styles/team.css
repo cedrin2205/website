@@ -1,21 +1,18 @@
 body {
   font-family: Arial, sans-serif;
   width: 100%;
-  height: 100%; /* Ensure full height */
-  margin: 0; /* Remove default margin */
-  background-color: white; /* Background color */
+  height: 100%;
+  margin: 0;
+  background-color: white;
 }
 
 section {
   height: 130vh;
   border-bottom: 1px solid #ddd;
   font-family: "Montserrat", sans-serif;
+  overflow: hidden;
 }
-#contact {
-}
-#product {
-}
-/*team start*/
+
 #team {
   max-height: max-content;
   background-color: #1e1e1e;
@@ -23,7 +20,9 @@ section {
   overflow: hidden;
 }
 
-.team-container, .first-container, .second-container {
+.team-container,
+.first-container,
+.second-container {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -124,5 +123,3 @@ section {
   top: 21rem;
   left: 65.5rem;
 }
-
-/*team end*/
