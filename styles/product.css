@@ -46,24 +46,30 @@ p {
   margin-bottom: 20px;
   line-height: 1.6;
 }
-/*Showcase*/
+/*Showcase products*/
 .product-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin-top: 30px;
 }
-.product-item {
+.product-item img{
   position: relative;
-  transition: transform 0.5s ease;
+  transition: transform 0.25s ease;
 }
-.product-item:hover {
+.product-item img:hover {
   transform: scale(1.05);
 }
 .product-item img {
   width: 370px;
-  height: 175px;
+  height: auto;
   border-radius: 10px;
+}
+.product-item p{
+  text-align: center;
+  margin-top: -15px;
+  font-size: 20px;
+  line-height: 1.6;
 }
 
 /*Image na nagpapakita ng mga bumili na may text sa tabi*/
