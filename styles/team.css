@@ -1,125 +1,129 @@
 body {
-  font-family: Arial, sans-serif;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  background-color: white;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 section {
-  height: 130vh;
-  border-bottom: 1px solid #ddd;
-  font-family: "Montserrat", sans-serif;
-  overflow: hidden;
+    height: 130vh;
+    border-bottom: 1px solid #ddd;
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+    flex: 1;
 }
 
 #team {
-  max-height: max-content;
-  background-color: #1e1e1e;
-  box-sizing: border-box;
-  overflow: hidden;
+    max-height: max-content;
+    background-color: #1e1e1e;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .team-container,
 .first-container,
 .second-container {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-top: 35px;
-  text-align: center;
-  margin-bottom: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 35px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .teamtext-header {
-  position: relative;
-  font-size: 28px;
-  color: whitesmoke;
-  text-align: center;
-  top: 50px;
+    position: relative;
+    font-size: 28px;
+    color: whitesmoke;
+    text-align: center;
+    top: 50px;
 }
 
 .text {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .contributors {
-  height: 280px;
-  width: 280px;
-  border-radius: 15px;
-  border-style: none;
+    height: 280px;
+    width: 280px;
+    border-radius: 15px;
+    border-style: none;
 }
 
 .card {
-  width: 280px;
-  height: 280px;
-  background-color: #858d94;
-  border-radius: 15px;
-  border-style: none;
-  margin: 25px;
-  margin-top: 50px;
+    width: 280px;
+    height: 280px;
+    background-color: #858d94;
+    border-radius: 15px;
+    border-style: none;
+    margin: 25px;
+    margin-top: 50px;
 }
 
 .nameholder div {
-  margin: 5px;
-  color: #6c757d;
+    margin: 5px;
+    color: #6c757d;
 }
 
 .nameholder {
-  height: 60px;
-  width: 220px;
-  font-size: 15px;
-  padding-top: 15px;
-  border-radius: 5px;
-  background-color: #ddd;
+    height: 60px;
+    width: 220px;
+    font-size: 15px;
+    padding-top: 15px;
+    border-radius: 5px;
+    background-color: #ddd;
 }
 
 .nameplatetop {
-  position: absolute;
-  top: 21rem;
-  left: 3.5rem;
+    position: absolute;
+    top: 21rem;
+    left: 3.5rem;
 }
 
 .nameplate1 {
-  position: absolute;
-  top: 21rem;
-  left: 24rem;
+    position: absolute;
+    top: 21rem;
+    left: 24rem;
 }
 
 .nameplate2 {
-  position: absolute;
-  top: 21rem;
-  left: 45rem;
+    position: absolute;
+    top: 21rem;
+    left: 45rem;
 }
 
 .nameplate3 {
-  position: absolute;
-  top: 21rem;
-  left: 65.5rem;
+    position: absolute;
+    top: 21rem;
+    left: 65.5rem;
 }
 
 .nameplate4 {
-  position: absolute;
-  top: 21rem;
-  left: 3.5rem;
+    position: absolute;
+    top: 21rem;
+    left: 3.5rem;
 }
 
 .nameplate5 {
-  position: absolute;
-  top: 21rem;
-  left: 24rem;
+    position: absolute;
+    top: 21rem;
+    left: 24rem;
 }
 
 .nameplate6 {
-  position: absolute;
-  top: 21rem;
-  left: 45rem;
+    position: absolute;
+    top: 21rem;
+    left: 45rem;
 }
 
 .nameplate7 {
-  position: absolute;
-  top: 21rem;
-  left: 65.5rem;
+    position: absolute;
+    top: 21rem;
+    left: 65.5rem;
 }
